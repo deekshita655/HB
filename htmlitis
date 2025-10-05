@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draging papers</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<div class="paper heart" ></div>
+<div class="paper image" >
+    
+    <p>THIS IS FOR uu RAHHH</p>
+
+    
+</div>
+<div class="paper image" >
+    <p>hlooo</p>
+</div>
+<div class="paper image" >
+    <p>helooo</p>
+</div>
+
+<div class="paper">
+    <p>helooo </p>
+</div>
+<div class="paper">
+    <p>heloo</p>
+</div>
+
+<script src="script.js" ></script> 
+</body>
+</html>
