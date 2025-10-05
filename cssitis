@@ -1,65 +1,61 @@
-css
-.paper {
-    padding:100px 100px;
-}
 body {
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background-image: url('');
-    background-size:1000px;
-    background-position:center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 1000px;
+    background-position: center center;
 }
-.paper {
-    
-    position:absolute;
 
-    background-image:url('akka.v.jpg');
-    background-size:500px;
-    background-position:center center;
-    padding:20px 100px;
-    transform:rotatez(-5deg);
-    box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5) ;
+.paper {
+    position: absolute;
+    background-image: url('akka.v.jpg');
+    background-size: 500px;
+    background-position: center center;
+    padding: 20px 100px;
+    transform: rotate(-5deg);
+    box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
 }
+
 .paper.heart {
-    position : relative;
-    width :200px;
+    position: relative;
+    width: 200px;
     height: 200px;
-    padding:0px;
-    border-radius:50px
+    padding: 0px;
+    border-radius: 50px; /* Rounded square, not a heart */
 }
 
 .paper.image {
-    padding:10px;
-
-}
-.paper.image p{
-    font-size:50px;
+    padding: 10px;
 }
 
-img{
-    max-height:200px;
-    width:100%;
-    user-select:none;
+.paper.image p {
+    font-size: 50px;
 }
+
+img {
+    max-height: 200px;
+    width: 100%;
+    user-select: none;
+}
+
 .paper.heart::after {
-    content:"";
-    background-image:url('');
-    width:100%;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    background-size:150px;
-    background-position:center center ;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 150px;
+    background-position: center center;
     background-repeat: no-repeat;
     opacity: 0.6;
 }
-p{
-    font-family:'zeyada';
-    font-size:50px;
-    color:rgb(0, o, 100);
-    opacity:0.75;
-    user-select:none;
+
+p {
+    font-family: 'zeyada';
+    font-size: 50px;
+    color: rgb(0, 0, 100);
+    opacity: 0.75;
+    user-select: none;
 }
